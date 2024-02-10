@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "brand_bmV8JG": {
+          "type": "brand",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "tablets_jzEFkG": {
+          "type": "tablets",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "buy_button_color": "#4770db"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "discount_delivery_4iJbxL": {
+          "type": "discount_delivery",
+          "settings": {
+            "color": "{{ product.metafields.custom.discount_delivery_color.value }}",
+            "discount_image": "{{ product.metafields.custom.discount_delivery_image_1.value }}",
+            "discount_title": "3 for 2",
+            "discount_sub_title": "On All Products",
+            "delivery_image": "{{ product.metafields.custom.discount_delivery_image_2.value }}",
+            "delivery_title": "Free UK Delivery",
+            "delivery_sub_title": "on this item"
+          }
+        },
+        "collapsible_tab_DNNwxf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PRODUCT DETAILS",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.accordion_details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NiDBEb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "REWARDS, DELIVERY & RETURNS",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.accordion_delivery_returns | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_bmV8JG",
+        "title",
+        "tablets_jzEFkG",
+        "description",
+        "rating",
+        "variant_picker",
+        "price",
+        "quantity_selector",
+        "buy_buttons",
+        "discount_delivery_4iJbxL",
+        "collapsible_tab_DNNwxf",
+        "collapsible_tab_NiDBEb"
+      ],
+      "settings": {
+        "color_page": "#ffffff",
+        "color_split": "#ffffff",
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "tabs-for-dpp": {
+      "type": "tabs-for-dpp",
+      "settings": {
+        "reviews": "REVIEWS",
+        "nutritional_information": "NUTRITIONAL INFORMATION",
+        "directions": "DIRECTIONS",
+        "faqs": "FAQs",
+        "data_not_found_first_tab": "Reviews is not found!",
+        "data_not_found": "Content in update!"
+      }
+    },
+    "1707311986fd283435": {
+      "type": "apps",
+      "blocks": {
+        "product_review_myappgurus_form_9HmJAX": {
+          "type": "shopify:\/\/apps\/product-review-myappgurus\/blocks\/Form\/0cf5caa0-e138-46b8-999b-520d16633e4c",
+          "settings": {
+            "block_heading": "",
+            "rating": "",
+            "no_rating": "",
+            "subtitle1": "",
+            "subtitle2": "",
+            "review_btn": "",
+            "form_heading": "",
+            "name_label": "",
+            "email_label": "",
+            "review_title_label": "",
+            "review_description_label": "",
+            "ratings_label": "",
+            "review_image_label": "",
+            "submit_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_review_myappgurus_form_9HmJAX"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "swiper_review_slider": {
+      "type": "swiper-review-slider",
+      "blocks": {
+        "page_3mRWpP": {
+          "type": "page",
+          "settings": {
+            "title": "Daniel Itua",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "I recently tried Vitabiotics' Wellman Wellbeing supplement for men, and I must say it exceeded my expectations. The blend of essential vitamins and minerals specifically tailored for men's health made a noticeable difference in my overall well-being. I found that it provided me with a boost of energy and helped support my immune system.  I highly recommend giving Wellman Wellbeing a try if you're looking to enhance your overall health and vitality.",
+            "slide_url": ""
+          }
+        },
+        "page_3TkHzP": {
+          "type": "page",
+          "settings": {
+            "title": "Ray Smith",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "All good....",
+            "slide_url": ""
+          }
+        },
+        "page_ALXGWB": {
+          "type": "page",
+          "settings": {
+            "title": "Daniel Itua",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "I recently tried Vitabiotics' Wellman Wellbeing supplement for men, and I must say it exceeded my expectations. The blend of essential vitamins and minerals specifically tailored for men's health made a noticeable difference in my overall well-being. I found that it provided me with a boost of energy and helped support my immune system.  I highly recommend giving Wellman Wellbeing a try if you're looking to enhance your overall health and vitality.",
+            "slide_url": ""
+          }
+        },
+        "page_fG4YqG": {
+          "type": "page",
+          "settings": {
+            "title": "Jean FERRIS",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "I’m taking the ProBiotic. I started taking this following a hospitalisation with a severe flare of diverticulitis. That was in March 2023. Prior to that I was having gut infections every 2-3 months. I started to take the probiotic straight after discharge. I haven’t had a flare up since. I haven’t had a cold or virus and I feel very healthy. The company is great to deal with and have dealt with any queries speedily and effectively. This small tablet has transformed my life!!",
+            "slide_url": ""
+          }
+        },
+        "page_AJ6p6x": {
+          "type": "page",
+          "settings": {
+            "title": "Douglas",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "Advance notifications of subscription order are great.",
+            "slide_url": ""
+          }
+        },
+        "page_VkXJzc": {
+          "type": "page",
+          "settings": {
+            "title": "Olayinka Adekeye",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "The products arrived on time. It is working well. I feel more vibrant and energetic.",
+            "slide_url": ""
+          }
+        },
+        "page_NtixXW": {
+          "type": "page",
+          "settings": {
+            "title": "Gokol",
+            "title_desc": "Verified",
+            "stars_quantity": 5,
+            "comment": "It's a monthly setup ordering system. Arrives on time hassle free. It's easy to setup a monthly commitment for one's purchases.",
+            "slide_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "page_3mRWpP",
+        "page_3TkHzP",
+        "page_ALXGWB",
+        "page_fG4YqG",
+        "page_AJ6p6x",
+        "page_VkXJzc",
+        "page_NtixXW"
+      ],
+      "disabled": true,
+      "settings": {
+        "clickable": false,
+        "content_align": "left",
+        "navigation_enabled": true,
+        "pagination_enabled": false,
+        "slide_height": "default",
+        "slides_offset": "small",
+        "slide_card": false,
+        "container_width": true,
+        "slider_align": "align_middle",
+        "slide_width": "310",
+        "slider_columns_desktop": 4,
+        "background_content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "tabs-for-dpp",
+    "1707311986fd283435",
+    "swiper_review_slider"
+  ]
+}
